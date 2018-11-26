@@ -1,0 +1,140 @@
+.site-footer {
+    background-color: #f6f6f6;
+    font-family: Vollkorn, Georgia, serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.7);
+    -webkit-font-smoothing: antialiased;
+}
+
+
+@media (max-width: 680px) {
+.foot {
+    width: 100%;
+    padding: 0;
+    background-color: #f6f6f6;
+}
+.site-footer {
+  margin-left: -30%;
+  font-size: 3px !important;
+  display: flex;
+  width: 110%;
+  background-color: #f6f6f6;
+}
+.site-nav {
+  height: 30%;
+}
+.site-footer-left, .site-footer-right {
+  font-size: 6px !important;
+  background-color: #f6f6f6;
+
+}
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.foot {
+   display: inline-flex;
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin-left: 30%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.site-footer-left, .site-footer-right {
+    float: left;
+    padding: 40px 10px 40px 0px;
+    width: 340px;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.nugget {
+    font-family: Karla, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.25);
+    letter-spacing: 1.4px;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.technologies {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    letter-spacing: 0.2px;
+    font-family: Vollkorn, Georgia, serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.6);
+    -webkit-font-smoothing: antialiased;
+}
+
+p {
+    margin-bottom: 35px;
+    margin-top: 20px;
+    font-family: Vollkorn, Georgia, serif;
+    font-size: 18px;
+    line-height: 31px;
+    color: #4f4f4f;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: #A479BB;
+    text-decoration: none;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+a svg {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    fill: darkgray;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+:not(svg), :not(foreignObject) > svg {
+    transform-origin: 0px 0px 0px;
+}
+
+.copyright {
+    font-family: Karla, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 700px) {
+
+.foot {
+    width: 85%;
+    padding: 0;
+
+}
+
+
+}

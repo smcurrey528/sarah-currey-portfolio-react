@@ -1,0 +1,20 @@
+.site-intro, .site-menu, .site-menu:after {
+    background: #FFB886;
+    background: linear-gradient(to right, #28BBEB, #FF637E, #FFE226, #1CD5AF, #28BBEB);
+    background-size: 400% 100%;
+    background-position: 33.3% 0;
+    -webkit-transition: background-position .5s ease;
+    transition: background-position .5s ease;
+}
+
+
+.card  {
+  width: 40%;
+  padding-top: 5%;
+  padding-left: 30%;
+  cursor: pointer;
+}
+
+.card-title {
+  font-size: 30px;
+}

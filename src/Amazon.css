@@ -1,0 +1,49 @@
+ header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+.amazon {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    /*margin-left: 200px;*/
+    padding-left: 32%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 680px) {
+  .amazon {
+    margin-left: -18%;
+  }
+  }
+
+
+h1 {
+    font-family: Karla, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.75);
+    line-height: 32px;
+    margin-top: 40px;
+    padding-top: 5px;
+}
+
+h1 i {
+    color: rgba(0, 0, 0, 0.25);
+    font-family: Karla, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.logo {
+    width: 65px;
+    height: 65px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 30%;
+}
