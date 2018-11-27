@@ -14,7 +14,7 @@ class Contact extends Component {
 <br/>
   <section className="row">
   <section className="photos">
-        <img  className="headshot" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/46511364_10213453921485195_6791832196928765952_n.jpg?_nc_cat=105&_nc_ht=scontent-iad3-1.xx&oh=626afcaddd2be3e61d602e455913a51f&oe=5CA90702"/>
+        <img  className="headshot" src="https://i.imgur.com/FonrfDe.png"/>
         <h3 className="overlay-title">I also go by the nickname "Scurrey"</h3>
   </section>
    <div className="rightside">
