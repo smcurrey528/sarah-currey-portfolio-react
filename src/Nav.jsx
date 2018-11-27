@@ -15,7 +15,7 @@ class Nav extends Component {
           <nav className="site-nav">
                     <ul className="site-menu site-menu-animated">
               <li className="site-menu-item category-blog">
-                <a href="/">Work</a>
+                <a href="/">Home</a>
               </li>
               <li className="site-menu-item category-work">
                 <a href="/articles/">Articles</a>
